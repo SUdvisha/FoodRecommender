@@ -4,7 +4,6 @@
 📊 Dataset Overview: Source: Kaggle - Food.com Recipes and Reviews(https://www.kaggle.com/datasets/irkaal/foodcom-recipes-and-reviews?select=recipes.csv). Records: Over 226,000 recipes
 
 #Key Features:
-
 Name, AuthorId, Description, RecipeInstructions Time metrics: PrepTime, CookTime, TotalTime Nutritional info: Calories, FatContent, ProteinContent, CarbohydrateConten RecipeIngredientParts, AggregatedRating, ReviewCount, RecipeServings
 🧪 Features
 User Mood Detection:
@@ -28,8 +27,8 @@ Recommendation Engine:
 Filters recipes matching the detected mood.
 Vectorizes processed recipe text using TF-IDF.
 Computes cosine similarity to user input and returns top-N recipe matches.
-Visualization:
 
+Visualization:
 Mood tag distribution plot (Seaborn)
 Ingredient word cloud (WordCloud)
 🛠️ Tech Stack
